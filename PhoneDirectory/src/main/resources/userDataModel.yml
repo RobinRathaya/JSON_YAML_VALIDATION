@@ -1,0 +1,20 @@
+---
+entity: User
+attribute:
+  - name: Username
+    type: String
+    Mandatory: 'yes'
+    Maxlength: '25'
+  - name: Age
+    type: Integer
+    Mandatory: 'yes'
+    Minvalue: '18'
+    Maxvalue: '100'
+  - name: Address
+    type: String
+    Mandatory: 'yes'
+    Maxlength: '100'
+  - name: Education
+    type: String
+    Mandatory: 'no'
+    Maxlength: '25'
